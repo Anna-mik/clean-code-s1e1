@@ -109,7 +109,7 @@ label[for="new-task"] {
 }
 
 /* Task list */
-.task-list {
+li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -118,22 +118,22 @@ label[for="new-task"] {
   align-items: center;
 }
 
-.task-list > * {
+li > * {
   vertical-align: middle;
 }
 
-.task-list > input[type="checkbox"] {
+li > input[type="checkbox"] {
   margin: 0 10px;
 }
 
-.task-list > label {
+li > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.task-list > input[type="text"] {
+li > input[type="text"] {
   width: 226px;
 }
 
@@ -154,7 +154,7 @@ label[for="new-task"] {
 }
 
 /* Edit Task */
-input[type="text"] {
+ul li input[type="text"] {
   display: none;
 }
 
